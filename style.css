@@ -125,9 +125,7 @@ nav .nav-link:hover {
   color: var(--lightText) !important;
   transition: var(--transition);
 }
-/* .nav-link:nth-child(4) {
-  padding: 0.7rem 0rem 0.7rem 1rem !important;
- }  */
+
 nav .navbar-collapse > a {
   min-width: 110px !important;
 }
