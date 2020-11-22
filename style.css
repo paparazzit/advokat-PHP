@@ -111,14 +111,6 @@ nav h1:hover {
   cursor: pointer;
 }
 
-/* .nav-link {
-  padding: 0.7rem 1rem !important;
-} */
-nav .navbar-nav {
-  /* margin-left: 10% !important;
-  margin-right: 10% !important; */
-}
-
 nav .navbar-nav a {
   font-size: 1rem;
   color: black !important;

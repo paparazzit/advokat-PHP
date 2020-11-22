@@ -25,7 +25,7 @@
   </head>
   <body>
 
-  
+
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -386,7 +386,7 @@
       <div class="container">
         <div class="slider">
           <div class="owl-carousel owl-theme">
-            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                <div class="date text-center">
               <h4>20</h4>
               <p>APR</p>
@@ -395,7 +395,7 @@
               </p>
               <p>Kanal 9</p>
           </div>
-            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -404,7 +404,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -413,7 +413,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -422,7 +422,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
