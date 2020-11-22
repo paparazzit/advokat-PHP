@@ -4,6 +4,7 @@ $(document).ready(function () {
     margin: 10,
     dots: false,
     nav: true,
+    autoplay: false,
 
     autoWidth: true,
     responsive: {
@@ -25,5 +26,12 @@ $(document).ready(function () {
       owl.trigger("prev.owl");
     }
     e.preventDefault();
+  });
+});
+
+// search bar display
+$(document).ready(function () {
+  $(".icon").click(function () {
+    $(".input").toggleClass("active");
   });
 });

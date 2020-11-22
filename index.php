@@ -59,17 +59,20 @@
             </li>
            
           </ul>
-        
-        <a class="nav-item nav-link ml-auto" href="#">Pozovite nas</a>
+          <a class="nav-item nav-link" href="#">Pozovite nas</a>
         <form class="form-inline my-2 my-lg-0 ">
-          <a href="" class="nav-link "><i class="fas fa-search"></i></a>
+          
+          <button type="button" class="nav-link nav-item icon"><i class="fas fa-search"></i></button>
         </form>
+     
       </div>
     </nav>
  
     
     
     <header class="d-flex justify-content-center align-items-center">
+      <form action=""><input type="text" placeholder="pretrazi" class="input"></form>
+    
       <img src="img/Logo.png" alt="" />
     </header>
     <!-- services -->
@@ -381,7 +384,7 @@
       <div class="container">
         <div class="slider">
           <div class="owl-carousel owl-theme">
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                <div class="date text-center">
               <h4>20</h4>
               <p>APR</p>
@@ -390,7 +393,7 @@
               </p>
               <p>Kanal 9</p>
           </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -399,7 +402,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -408,7 +411,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -417,7 +420,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -528,5 +531,6 @@
    <script src="js/main.js"></script>
    
    <script src="js/mailer.js"></script>
+  
   </body>
 </html>
