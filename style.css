@@ -70,21 +70,14 @@ h3::after {
   font-weight: 500 !important;
 }
 
-/* navbar */
+/********************
+NAVBAR
+*********************/
 
 .bg-light {
   background: var(--gray) !important;
 }
 
-/* nav .border-right {
-  border-right: 1px solid var(--blue) !important;
-  padding-right: 30px;
-} */
-/* .navbar-brand {
-  padding-bottom: 0 !important;
-  padding-top: 0 !important;
-  margin-left: 3% !important;
-} */
 nav a {
   text-decoration: none;
   color: black;
@@ -111,12 +104,10 @@ nav h1:hover {
   cursor: pointer;
 }
 
-/* .nav-link {
-  padding: 0.7rem 1rem !important;
-} */
 nav .navbar-nav {
-  /* margin-left: 10% !important;
-  margin-right: 10% !important; */
+  border-right: 1px solid var(--blue);
+  border-left: 1px solid var(--blue);
+  padding: 0 5%;
 }
 
 nav .navbar-nav a {
@@ -126,44 +117,22 @@ nav .navbar-nav a {
   font-weight: 500;
   margin: 0 15px;
 }
+
 nav .navbar-nav li:nth-child(2) {
-  margin: 0 30px !important;
+  margin: 0 20px !important;
 }
 nav .nav-link:hover {
   color: var(--lightText) !important;
   transition: var(--transition);
 }
-/* .nav-link:nth-child(4) {
-  padding: 0.7rem 0rem 0.7rem 1rem !important;
- }  */
+
 nav .navbar-collapse > a {
-  min-width: 110px !important;
-}
-.navbar-nav li:first-child {
-  border-left: 1px solid var(--blue);
-  padding-left: 10% !important;
-  margin-left: 30px !important;
-}
-.navbar-nav li:last-child {
-  border-right: 1px solid var(--blue);
-  padding-right: 10% !important;
-  margin-right: 30px !important;
+  min-width: 40px !important;
 }
 
-/* .nav-item img {
-  position: absolute;
-  padding-top: 6px;
-  right: 20px !important;
-} */
-/* .navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: rgba(0, 0, 0, 0.9);
-  font-weight: 600;
-} */
-
-/* header */
+/********************
+HEADER
+*********************/
 header {
   background: url(img/Header.png);
   background-position: center;
@@ -175,7 +144,9 @@ header img {
   width: 12%;
 }
 
-/* SERVICES*/
+/********************
+SERVICES
+*********************/
 .services {
   background: var(--blue);
 }
@@ -203,7 +174,10 @@ header img {
   font-size: 1rem !important;
   font-weight: 600;
 }
-/* O nama */
+
+/********************
+ONAMA
+*********************/
 
 .aboutUs hgroup {
   background: url(img/O\ nama.png);
@@ -215,8 +189,9 @@ header img {
 .aboutUs .container .row .col-md-6 h3 {
   font-weight: 400 !important;
 }
-
-/* CTA */
+/********************
+CTA form
+*********************/
 .cta {
   background: var(--deepGray);
 }
@@ -249,7 +224,9 @@ header img {
   transition: var(--transition);
 }
 
-/* istorija */
+/********************
+ISTORIJA
+*********************/
 .istorija {
   background: url(img/history.png);
   background-position: center;
@@ -269,7 +246,10 @@ header img {
   font-weight: 500;
   letter-spacing: 1px;
 }
-/* oblast rada */
+
+/********************
+Oblast rada
+*********************/
 
 .oblastRada hgroup {
   background: url(img/cime\ se\ bavimo.png);
@@ -342,7 +322,9 @@ header img {
   height: auto !important;
 }
 
-/* zasto mi */
+/********************
+ZASTO MI
+*********************/
 
 .zastoMi {
   background: var(--gray);
@@ -380,7 +362,9 @@ header img {
   padding-bottom: 100px;
 }
 
-/* BES */
+/********************
+BES
+*********************/
 
 .bes {
   background: var(--blue);
@@ -411,7 +395,10 @@ textarea {
   transition: var(--transition);
   background: transparent;
 }
-/* counter */
+
+/********************
+     COUNTER
+*********************/
 .counter {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/counter.png);
@@ -427,7 +414,10 @@ textarea {
 .counter hgroup p {
   margin-bottom: 0;
 }
-/* Gostovanja */
+
+/********************
+     GOSTOVANJE
+*********************/
 
 .gostovanja hgroup {
   background: url(img/Medija.png);
@@ -488,7 +478,10 @@ button:focus {
 .nasiKlijenti h2.text-center {
   padding-bottom: 50px;
 }
-/* footer */
+
+/********************
+     FOOTER
+*********************/
 footer {
   background: var(--deepGray);
 }
@@ -543,7 +536,9 @@ footer .bottomBar {
   background: var(--deepGray) !important;
 }
 
-/* ADVOKATI */
+/********************
+     ADVOKATI
+*********************/
 
 .advokati hgroup {
   background-image: url(img/Naš\ tim.png);
@@ -607,7 +602,9 @@ footer .bottomBar {
   line-height: 2;
 }
 
-/* kontakt */
+/********************
+     KONTAKT
+*********************/
 
 .kontakt hgroup {
   background: url(img/Kako\ do\ nas.png);
@@ -655,7 +652,9 @@ footer .bottomBar {
 .info .row-2 hr {
   width: 100%;
 }
-/* RESPONISVE */
+/********************
+     RESPONSIVE
+*********************/
 
 @media (max-width: 1200px) {
   .services article .wrapper h4 {
@@ -679,7 +678,9 @@ footer .bottomBar {
     justify-content: space-between !important;
   }
 
-  /* advokati */
+  /********************
+     ADVOKATI
+*********************/
   .advokati .row-1 .advokatCard {
     flex: 0 0 100%;
   }
@@ -788,7 +789,10 @@ footer .bottomBar {
     bottom: -15px;
     left: 35%;
   }
-  /* advokati */
+
+  /********************
+     ADVOKATI
+*********************/
 
   footer,
   footer .workHours {
