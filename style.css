@@ -133,7 +133,9 @@ nav .navbar-collapse form button {
 nav .navbar-collapse > a {
   min-width: 40px !important;
 }
-
+.active {
+  background-color: #00a7df3d;
+}
 /********************
 HEADER
 *********************/
@@ -753,17 +755,22 @@ footer .bottomBar {
 }
 @media (max-width: 991px) {
   nav .navbar-nav {
-    margin-left: 10% !important;
-    padding-left: 5% !important;
-  }
-  .nav-link:first-child,
-  .nav-link:nth-child(3) {
+    /* border-right: 1px solid var(--blue);
+    border-left: 1px solid var(--blue); */
     border: none;
-    padding: 0.7rem 1rem !important;
+    padding: 0;
   }
 
-  .nav-item:last-child {
-    display: none;
+  /* nav .navbar-nav {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  } */
+
+  .nav-link {
+    padding: 0 !important;
+  }
+  nav .navbar-nav a {
+    margin: 0;
   }
 
   .oblastRada .row {
