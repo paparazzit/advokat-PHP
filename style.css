@@ -181,7 +181,7 @@ nav .navbar-collapse .pozovi i {
 HEADER
 *********************/
 header {
-  background: url(img/Header.png);
+  background-image: url(img/Header.png);
   background-position: center;
   background-size: cover;
   height: 50vh;
