@@ -16,37 +16,37 @@
           <article class="col-lg-2 col-md-4 col-sm-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Građansko i privredno pravo</h4>
-              <a class="text-white" href="">Saznaj više></a>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
           <article class="col-lg-2 col-md-4 col-sm-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Građansko i privredno pravo</h4>
-              <a class="text-white" href="">Saznaj više></a>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
           <article class="col-lg-2 col-md-4 col-sm-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Upravno pravo</h4>
-              <a class="text-white" href="">Saznaj više></a>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
           <article class="col-lg-2 col-md-4 col-sm-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Nasledno i porodično pravo</h4>
-              <a class="text-white" href="">Saznaj više></a>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
           <article class="col-lg-2 col-md-4 col-sm-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Radno pravo</h4>
-              <a class="text-white" href="">Saznaj više></a>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
           <article class="col-lg-2 col-md-4 col-sm-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Ustavno pravo</h4>
-              <a class="text-white" href="">Saznaj više></a>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
         </div>
@@ -100,7 +100,7 @@
       </div>
     </section>
     <!-- OBLAST RADA -->
-    <section class="oblastRada">
+    <section class="oblastRada" id="oblastRada">
       <div class="container">
         <hgroup class="headers text-center"><h2>Oblast rada</h2></hgroup>
       <p class="text-center">

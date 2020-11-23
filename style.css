@@ -10,6 +10,9 @@
   --font-size-small: 12px;
   --transition: 0.4s ease;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +20,6 @@
 }
 body {
   font-size: var(--font-size);
-  scroll-behavior: smooth;
 }
 .m-right {
   margin-right: 5%;
@@ -117,6 +119,9 @@ nav .navbar-nav a {
   font-weight: 500;
   margin: 0 15px;
 }
+nav .navbar-collapse > a {
+  width: 250px;
+}
 
 nav .navbar-nav li:nth-child(2) {
   margin: 0 20px !important;
@@ -126,9 +131,6 @@ nav .nav-link:hover {
   transition: var(--transition);
 }
 
-nav .navbar-collapse > a {
-  min-width: 40px !important;
-}
 .active {
   background-color: #00a7df3d;
 }
@@ -136,18 +138,22 @@ nav .navbar-collapse > a {
 .navbar-collapse {
   position: relative;
 }
+nav .navbar-collapse .pozovi i {
+  transform: rotate(-20deg);
+}
 .navbar-collapse .tel {
   position: absolute;
   top: 58px;
   right: -15px;
-  background: rgba(255, 255, 255, 0.541);
-  border-radius: 5px;
-  font-size: 1.1rem;
+  background: rgba(170, 167, 167, 0.596);
+  border-radius: 8px 0 0 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
   color: black;
   padding: 5px 10px;
   height: 40px;
   line-height: 25px;
-  max-width: 200px;
+  max-width: 150px;
   width: 0;
   overflow: hidden;
   opacity: 0;
@@ -167,7 +173,7 @@ nav .navbar-collapse > a {
   opacity: 0;
 } */
 .navbar-collapse .tel.active {
-  width: 200px;
+  width: 150px;
   opacity: 1;
   transition: all 0.5s ease;
 }

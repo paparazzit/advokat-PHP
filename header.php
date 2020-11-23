@@ -59,7 +59,7 @@
               <a class="nav-link" href="kontakt.php">Kontakt</a>
             </li>
           </ul>
-          <a class="nav-item nav-link pozovi" href="#">Pozovite nas</a>
+          <a class="nav-item nav-link pozovi text-right" href="#">Pozovite nas<i class="ml-1 fas fa-phone"></i> </a>
           <p class="tel text-center">062/111-000</p>
         <!-- <form class="form-inline my-2 my-lg-0 ">
           
