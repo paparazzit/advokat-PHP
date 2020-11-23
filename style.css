@@ -92,7 +92,6 @@ nav h1 {
   font-size: 1.2rem !important;
   line-height: 1.2 !important;
   font-weight: 300;
-  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
 }
 nav h1 span {
   font-weight: bold;
@@ -444,7 +443,11 @@ textarea {
   transition: var(--transition);
   background: transparent;
 }
-
+.bes form input::placeholder,
+.bes form textarea::placeholder {
+  color: white;
+  opacity: 0.9;
+}
 /********************
      COUNTER
 *********************/
@@ -519,6 +522,7 @@ button:focus {
   color: var(--textColor);
   transition: var(--transition);
 } */
+
 /* nasli klijenti */
 .nasiKlijenti {
   background: var(--gray);
@@ -526,6 +530,9 @@ button:focus {
 }
 .nasiKlijenti h2.text-center {
   padding-bottom: 50px;
+}
+.nasiKlijenti p.lead {
+  font-size: 1rem;
 }
 
 /********************
@@ -543,11 +550,15 @@ footer .container .row article {
 footer article p,
 footer article a {
   color: var(--lightText);
+  font-size: 0.9rem;
 }
 footer article h4,
 footer article h5,
 footer article h6 {
   color: var(--blue);
+}
+footer article h6 {
+  font-size: 1rem;
 }
 footer article hgroup {
   margin-bottom: 20px;
@@ -557,6 +568,7 @@ footer article hgroup h5 {
 }
 footer article hgroup h4 {
   letter-spacing: 4px;
+  font-size: 1.3rem;
 }
 footer article p {
   margin-bottom: 0;
@@ -576,6 +588,7 @@ footer .bottomBar p {
   color: white;
   font-weight: 500;
   padding: 20px 0;
+  font-size: 0.9rem;
 }
 footer hr {
   border: 1px solid var(--blue);
