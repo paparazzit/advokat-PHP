@@ -125,10 +125,6 @@ nav .nav-link:hover {
   color: var(--lightText) !important;
   transition: var(--transition);
 }
-nav .navbar-collapse form button {
-  border: none;
-  background: transparent;
-}
 
 nav .navbar-collapse > a {
   min-width: 40px !important;
@@ -136,22 +132,28 @@ nav .navbar-collapse > a {
 .active {
   background-color: #00a7df3d;
 }
-/********************
-HEADER
-*********************/
-header {
-  background: url(img/Header.png);
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
+
+.navbar-collapse {
   position: relative;
 }
-header form {
+.navbar-collapse .tel {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 58px;
+  right: -15px;
+  background: rgba(255, 255, 255, 0.541);
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: black;
+  padding: 5px 10px;
+  height: 40px;
+  line-height: 25px;
+  max-width: 200px;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
 }
-header .input {
+/* .navbar-collapse .tel {
   border: none;
   background: rgba(255, 255, 255, 0.541);
   border-radius: 5px;
@@ -163,18 +165,23 @@ header .input {
   max-width: 250px;
   width: 0;
   opacity: 0;
-}
-header .input::placeholder {
-  font-size: 1.1rem;
-  height: 40px;
-  line-height: 25px;
-}
-header .input.active {
-  width: 250px;
-
+} */
+.navbar-collapse .tel.active {
+  width: 200px;
   opacity: 1;
   transition: all 0.5s ease;
 }
+
+/********************
+HEADER
+*********************/
+header {
+  background: url(img/Header.png);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
 header img {
   min-width: 150px;
   width: 12%;

@@ -5,7 +5,7 @@
     
     
     <header class="d-flex justify-content-center align-items-center">
-      <form action="" class="form"><input type="text" placeholder="pretrazi" class="input"></form>
+      
     
       <img src="img/Logo.png" alt="" />
     </header>

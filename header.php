@@ -58,13 +58,13 @@
             <li class="nav-item <?php if($page=='kontakt'){ echo 'active';} ?>">
               <a class="nav-link" href="kontakt.php">Kontakt</a>
             </li>
-           
           </ul>
-          <a class="nav-item nav-link" href="#">Pozovite nas</a>
-        <form class="form-inline my-2 my-lg-0 ">
+          <a class="nav-item nav-link pozovi" href="#">Pozovite nas</a>
+          <p class="tel text-center">062/111-000</p>
+        <!-- <form class="form-inline my-2 my-lg-0 ">
           
           <button type="button" class="nav-link nav-item icon"><i class="fas fa-search"></i></button>
-        </form>
+        </form> -->
      
       </div>
     </nav>

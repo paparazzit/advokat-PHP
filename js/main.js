@@ -31,7 +31,7 @@ $(document).ready(function () {
 
 // search bar display
 $(document).ready(function () {
-  $(".icon").click(function () {
-    $(".input").toggleClass("active");
+  $(".pozovi").click(function () {
+    $(".tel").toggleClass("active");
   });
 });
