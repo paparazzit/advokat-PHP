@@ -613,7 +613,7 @@ footer .bottomBar {
 .row-1 {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   flex-wrap: wrap;
 }
 .advokati .advokatCard {
@@ -677,7 +677,7 @@ footer .bottomBar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 50px 0;
+  margin: 50px;
 }
 
 .kontakt .row-2 .map {
@@ -743,6 +743,9 @@ footer .bottomBar {
   /********************
      ADVOKATI
 *********************/
+  .row-1 {
+    margin-bottom: 200px;
+  }
   .advokati .row-1 .advokatCard {
     flex: 0 0 100%;
   }

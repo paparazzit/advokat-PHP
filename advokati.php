@@ -27,7 +27,7 @@
                   </div>
             </div>
     </section>
-    <!-- Nasi Klijenti -->
+  
     <?php include 'klijenti.php' ?>
     <!-- FOOTER -->
     <?php include 'footer.php'; ?>

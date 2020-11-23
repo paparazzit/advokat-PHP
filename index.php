@@ -369,6 +369,7 @@
          
     </section>
 <!-- nasi klijenti -->
+
     <section class="nasiKlijenti">
       <h2 class="text-center">Naši klijenti</h2>
       <div class="container">
@@ -384,7 +385,7 @@
               i ustanove</p>
           </div>
           <div class="col-md-3 col-sm-6 text-center">
-            <img src="img/crkve, verske zajednice i udruzenja.png" alt="">
+            <img src="img/crkve, verske zajednice i udruzenja.png" height="50px" alt="">
             <p class="lead">Crkve, verske zajednice
               i udruženja
              </p>
