@@ -13,37 +13,37 @@
     <section class="services">
       <div class="container">
         <div class="row ">
-          <article class="col-lg-2 col-md-4 col-sm-6">
+          <article class="col-lg-2 col-md-4 col-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Građansko i privredno pravo</h4>
               <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
-          <article class="col-lg-2 col-md-4 col-sm-6">
-            <div class="wrapper text-white border text-center">
-              <h4 class="text-uppercase">Građansko i privredno pravo</h4>
-              <a class="text-white" href="#oblastRada">Saznaj više></a>
-            </div>
-          </article>
-          <article class="col-lg-2 col-md-4 col-sm-6">
+          <article class="col-lg-2 col-md-4 col-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Upravno pravo</h4>
               <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
-          <article class="col-lg-2 col-md-4 col-sm-6">
+          <article class="col-lg-2 col-md-4 col-6">
+            <div class="wrapper text-white border text-center">
+              <h4 class="text-uppercase">Upravno pravo</h4>
+              <a class="text-white" href="#oblastRada">Saznaj više></a>
+            </div>
+          </article>
+          <article class="col-lg-2 col-md-4 col-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Nasledno i porodično pravo</h4>
               <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
-          <article class="col-lg-2 col-md-4 col-sm-6">
+          <article class="col-lg-2 col-md-4 col-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Radno pravo</h4>
               <a class="text-white" href="#oblastRada">Saznaj više></a>
             </div>
           </article>
-          <article class="col-lg-2 col-md-4 col-sm-6">
+          <article class="col-lg-2 col-md-4 col-6">
             <div class="wrapper text-white border text-center">
               <h4 class="text-uppercase">Ustavno pravo</h4>
               <a class="text-white" href="#oblastRada">Saznaj više></a>
@@ -138,7 +138,7 @@
           <div id="card" class="myCard" >
             <div class="wrapper border text-center">
               <img src="img/upravno pravo-centered.png" alt="" />
-              <h4>Građansko i privredno pravo</h4>
+              <h4>Upravno pravo</h4>
               <p>
                 Zastupanje stranaka u postupcima za vraćanje oduzete imovine i obeštećenje –
                 restitucija (Agencija za restituciju)...
@@ -307,7 +307,7 @@
     <!-- COUNTER -->
     <section class="counter d-flex align-items-center justify-content-center">
       <hgroup class="text-white text-center">
-        <h4>4500</h4>
+        <h4 class="counter-1">4500</h4>
         <p class="text-uppercase">broj predmeta</p>
       </hgroup>
     </section>
@@ -318,7 +318,7 @@
       <div class="container">
         <div class="slider">
           <div class="owl-carousel owl-theme">
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                <div class="date text-center">
               <h4>20</h4>
               <p>APR</p>
@@ -327,7 +327,7 @@
               </p>
               <p>Kanal 9</p>
           </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -336,7 +336,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -345,7 +345,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -354,7 +354,7 @@
              </p>
              <p>Kanal 9</p>
             </div>
-            <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <div class="item"><iframe width="340" height="258" src="https://www.youtube.com/embed/K1x9zwMMAFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               <div class="date text-center">
              <h4>20</h4>
              <p>APR</p>
@@ -374,23 +374,23 @@
       <h2 class="text-center">Naši klijenti</h2>
       <div class="container">
         <div class="row flex-wrap">
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-6 text-center">
             <img src="img/privredna drustva.png" alt="">
             <p class="lead">Privredna društva</p>
           </div>
 
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-6 text-center">
             <img src="img/javna preduzeca.png" alt="">
             <p class="lead">Javna preduzeća
               i ustanove</p>
           </div>
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-6 text-center">
             <img src="img/crkve, verske zajednice i udruzenja.png" height="50px" alt="">
             <p class="lead">Crkve, verske zajednice
               i udruženja
              </p>
           </div>
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-6 text-center">
             <img src="img/fizicka lica.png" alt="">
             <p class="lead">Fizička lica</p>
           </div>

@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
-  --blue: #00a7df;
-  --deepGray: #232323;
-  --gray: #eceae6;
-  --textColor: #292929;
-  --lightText: #8f8f8f;
-  --fontFamily: "Roboto", sans-serif;
-  --font-size: 16px;
-  --font-size-small: 12px;
-  --transition: 0.4s ease;
+	--blue: #00a7df;
+	--deepGray: #232323;
+	--gray: #eceae6;
+	--textColor: #292929;
+	--lightText: #8f8f8f;
+	--fontFamily: "Roboto", sans-serif;
+	--font-size: 16px;
+	--font-size-small: 12px;
+	--transition: 0.4s ease;
 }
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
-  font-size: var(--font-size);
+	font-size: var(--font-size);
 }
 .m-right {
-  margin-right: 5%;
+	margin-right: 5%;
 }
 .m-left {
-  margin-left: 10%;
+	margin-left: 10%;
 }
 
 h1,
@@ -34,42 +34,42 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0 !important;
-  font-weight: 500;
-  line-height: 1.2;
+	margin-bottom: 0 !important;
+	font-weight: 500;
+	line-height: 1.2;
 }
 h3::after {
-  display: block;
-  content: "";
-  width: 30px;
-  height: 2px;
-  background: var(--blue);
-  margin: 10px 0;
+	display: block;
+	content: "";
+	width: 30px;
+	height: 2px;
+	background: var(--blue);
+	margin: 10px 0;
 }
 .btn-blue {
-  background: var(--blue);
-  border: 1px solid var(--blue);
-  color: white;
-  padding: 5px 30px;
+	background: var(--blue);
+	border: 1px solid var(--blue);
+	color: white;
+	padding: 5px 30px;
 }
 .btn-blue:hover {
-  background: white;
-  transition: var(--transition);
-  color: var(--blue);
+	background: white;
+	transition: var(--transition);
+	color: var(--blue);
 }
 .ml-6 {
-  margin-left: 80px;
+	margin-left: 80px;
 }
 .headers {
-  margin: 50px 0 !important;
-  background-size: 250px;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+	margin: 50px 0 !important;
+	background-size: 250px;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
 }
 .headers h2 {
-  padding: 20px 0 !important;
-  font-size: 2.2rem !important;
-  font-weight: 500 !important;
+	padding: 20px 0 !important;
+	font-size: 2.2rem !important;
+	font-weight: 500 !important;
 }
 
 /********************
@@ -77,86 +77,86 @@ NAVBAR
 *********************/
 
 .bg-light {
-  background: var(--gray) !important;
+	background: var(--gray) !important;
 }
 
 nav a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 nav a:hover {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 nav h1 {
-  font-size: 1.2rem !important;
-  line-height: 1.2 !important;
-  font-weight: 300;
+	font-size: 1.2rem !important;
+	line-height: 1.2 !important;
+	font-weight: 300;
 }
 nav h1 span {
-  font-weight: bold;
-  font-size: 1.2rem !important;
-  letter-spacing: 8px;
+	font-weight: bold;
+	font-size: 1.2rem !important;
+	letter-spacing: 8px;
 }
 nav h1 span .noSpace {
-  letter-spacing: 0;
+	letter-spacing: 0;
 }
 nav h1:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 nav .navbar-nav {
-  border-right: 1px solid var(--blue);
-  border-left: 1px solid var(--blue);
-  padding: 0 5%;
+	border-right: 1px solid var(--blue);
+	border-left: 1px solid var(--blue);
+	padding: 0 5%;
 }
 
 nav .navbar-nav a {
-  font-size: 1rem;
-  color: black !important;
-  letter-spacing: 1px;
-  font-weight: 500;
-  margin: 0 15px;
+	font-size: 1rem;
+	color: black !important;
+	letter-spacing: 1px;
+	font-weight: 500;
+	margin: 0 15px;
 }
 nav .navbar-collapse > a {
-  width: 250px;
+	width: 250px;
 }
 
 nav .navbar-nav li:nth-child(2) {
-  margin: 0 20px !important;
+	margin: 0 20px !important;
 }
 nav .nav-link:hover {
-  color: var(--lightText) !important;
-  transition: var(--transition);
+	color: var(--lightText) !important;
+	transition: var(--transition);
 }
 
 .active {
-  background-color: #00a7df3d;
+	background-color: #00a7df3d;
 }
 
 .navbar-collapse {
-  position: relative;
+	position: relative;
 }
 nav .navbar-collapse .pozovi i {
-  transform: rotate(-20deg);
+	transform: rotate(-20deg);
 }
 .navbar-collapse .tel {
-  position: absolute;
-  top: 58px;
-  right: -15px;
-  background: var(--gray);
-  border-radius: 8px 0 0 8px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: black;
-  padding: 5px 10px;
-  height: 40px;
-  line-height: 25px;
-  max-width: 150px;
-  width: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.5s ease;
+	position: absolute;
+	top: 58px;
+	right: -15px;
+	background: var(--gray);
+	border-radius: 8px 0 0 8px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: black;
+	padding: 5px 10px;
+	height: 40px;
+	line-height: 25px;
+	max-width: 150px;
+	width: 0;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.5s ease;
 }
 /* .navbar-collapse .tel {
   border: none;
@@ -172,55 +172,55 @@ nav .navbar-collapse .pozovi i {
   opacity: 0;
 } */
 .navbar-collapse .tel.active {
-  width: 150px;
-  opacity: 1;
-  transition: all 0.5s ease;
+	width: 150px;
+	opacity: 1;
+	transition: all 0.5s ease;
 }
 
 /********************
 HEADER
 *********************/
 header {
-  background-image: url(img/Header.png);
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
+	background-image: url(img/Header.png);
+	background-position: center;
+	background-size: cover;
+	height: 50vh;
 }
 
 header img {
-  min-width: 150px;
-  width: 12%;
+	min-width: 150px;
+	width: 12%;
 }
 
 /********************
 SERVICES
 *********************/
 .services {
-  background: var(--blue);
+	background: var(--blue);
 }
 .services article {
-  margin: 30px 0;
+	margin: 30px 0;
 }
 .services .col-md-2,
 .services .col-lg-2,
 .services .col-sm-4 {
-  padding-right: 10px;
-  padding-left: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 .services .wrapper {
-  height: 130px;
-  min-width: 166px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	height: 130px;
+	min-width: 166px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .services .border {
-  border: 2px solid white !important;
-  padding: 20px 10px;
+	border: 2px solid white !important;
+	padding: 20px 10px;
 }
 .services article h4 {
-  font-size: 1rem !important;
-  font-weight: 600;
+	font-size: 1rem !important;
+	font-weight: 600;
 }
 
 /********************
@@ -228,71 +228,71 @@ ONAMA
 *********************/
 
 .aboutUs hgroup {
-  background: url(img/O\ nama.png);
+	background: url(img/O\ nama.png);
 }
 .aboutUs hgroup h2 {
-  font-weight: 500 !important;
-  font-size: 2.2rem;
+	font-weight: 500 !important;
+	font-size: 2.2rem;
 }
 .aboutUs .container .row .col-md-6 h3 {
-  font-weight: 400 !important;
+	font-weight: 400 !important;
 }
 /********************
 CTA form
 *********************/
 .cta {
-  background: var(--deepGray);
+	background: var(--deepGray);
 }
 
 .cta.py-5 {
-  padding: 80px 0 !important;
+	padding: 80px 0 !important;
 }
 .cta form input {
-  background: var(--deepGray);
-  color: var(--blue);
-  border: 1px solid var(--blue);
-  padding: 2px 5px;
-  width: 283px !important;
-  margin-right: 5px;
-  font-size: 0.95rem;
+	background: var(--deepGray);
+	color: var(--blue);
+	border: 1px solid var(--blue);
+	padding: 2px 5px;
+	width: 283px !important;
+	margin-right: 5px;
+	font-size: 0.95rem;
 }
 
 .cta form button {
-  background: var(--blue);
-  border: 1px solid var(--blue);
-  font-size: 0.95rem;
-  padding: 2px 5px;
-  width: 283px !important;
-  margin-right: 5px;
+	background: var(--blue);
+	border: 1px solid var(--blue);
+	font-size: 0.95rem;
+	padding: 2px 5px;
+	width: 283px !important;
+	margin-right: 5px;
 }
 .cta form button:hover {
-  background: transparent;
+	background: transparent;
 
-  color: var(--blue);
-  transition: var(--transition);
+	color: var(--blue);
+	transition: var(--transition);
 }
 
 /********************
 ISTORIJA
 *********************/
 .istorija {
-  background: url(img/history.png);
-  background-position: center;
-  background-size: cover;
-  /* height: auto; */
-  padding: 150px 0;
+	background: url(img/history.png);
+	background-position: center;
+	background-size: cover;
+	/* height: auto; */
+	padding: 150px 0;
 }
 .istorija hgroup h2 {
-  padding-bottom: 20px;
-  font-size: 2.5rem;
-  font-weight: 500;
-  letter-spacing: 2px;
+	padding-bottom: 20px;
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 2px;
 }
 .istorija hgroup p {
-  font-style: italic;
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: 1px;
+	font-style: italic;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 1px;
 }
 
 /********************
@@ -300,74 +300,74 @@ Oblast rada
 *********************/
 
 .oblastRada hgroup {
-  background: url(img/cime\ se\ bavimo.png);
-  background-size: 450px !important;
+	background: url(img/cime\ se\ bavimo.png);
+	background-size: 450px !important;
 }
 .oblastRada hgroup h2 {
-  padding-top: 32px !important;
+	padding-top: 32px !important;
 }
 
 .oblastRada .row {
-  /* padding-bottom: 70px; */
-  margin-bottom: 70px;
+	/* padding-bottom: 70px; */
+	margin-bottom: 70px;
 }
 
 .oblastRada article {
-  text-align: center;
-  margin-bottom: 50px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 .oblastRada .col-sm-6 {
-  min-width: 250px;
+	min-width: 250px;
 }
 .oblastRada article {
-  position: relative;
+	position: relative;
 }
 .toggle:checked ~ .myCard {
-  transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
 }
 .toggle {
-  display: none;
+	display: none;
 }
 
 .oblastRada .myCard {
-  width: 100%;
-  height: 100%;
-  transition: all 0.5s ease-in;
-  transform-style: preserve-3d;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease-in;
+	transform-style: preserve-3d;
 }
 .oblastRada article .myCard .wrapper {
-  min-height: 350px;
-  padding: 20px 20px;
-  position: relative;
-  background: white;
+	min-height: 350px;
+	padding: 20px 20px;
+	position: relative;
+	background: white;
 }
 .oblastRada article .myCard .wrapper-back {
-  min-height: 350px;
-  width: 90%;
-  height: 100%;
-  padding: 20px 20px;
-  position: absolute;
-  background: white;
-  top: 0;
-  left: 15px;
-  transform: rotateY(-180deg);
+	min-height: 350px;
+	width: 90%;
+	height: 100%;
+	padding: 20px 20px;
+	position: absolute;
+	background: white;
+	top: 0;
+	left: 15px;
+	transform: rotateY(-180deg);
 }
 .flipCard {
-  transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
 }
 .wrapper,
 .wrapper-back {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 }
 .oblastRada article label {
-  position: absolute;
-  bottom: -25px;
-  left: 29%;
+	position: absolute;
+	bottom: -25px;
+	left: 29%;
 }
 .oblastRada article img {
-  width: 30% !important;
-  height: auto !important;
+	width: 30% !important;
+	height: auto !important;
 }
 
 /********************
@@ -375,39 +375,39 @@ ZASTO MI
 *********************/
 
 .zastoMi {
-  background: var(--gray);
-  padding-top: 50px !important;
+	background: var(--gray);
+	padding-top: 50px !important;
 }
 .zastoMi hgroup {
-  background: url(img/performance.png);
-  margin-top: 0 !important;
+	background: url(img/performance.png);
+	margin-top: 0 !important;
 }
 .zastoMi hgroup h2 {
-  font-weight: 500;
-  font-size: 2.2rem;
-  padding-top: 30px !important;
+	font-weight: 500;
+	font-size: 2.2rem;
+	padding-top: 30px !important;
 }
 .zastoMi article img {
-  padding-right: 30px;
-  /* padding-bottom: 100px; */
+	padding-right: 30px;
+	/* padding-bottom: 100px; */
 }
 .zastoMi article h3::after {
-  margin: 15px 0 !important;
+	margin: 15px 0 !important;
 }
 .zastoMi article p {
-  margin-bottom: 35px !important;
+	margin-bottom: 35px !important;
 }
 .zastoMi article a {
-  padding-bottom: 35px;
+	padding-bottom: 35px;
 }
 .zastoMi article button {
-  width: 203px;
+	width: 203px;
 }
 .zastoMi article button:hover {
-  background: transparent;
+	background: transparent;
 }
 .zastoMi article {
-  padding-bottom: 100px;
+	padding-bottom: 100px;
 }
 
 /********************
@@ -415,56 +415,59 @@ BES
 *********************/
 
 .bes {
-  background: var(--blue);
-  padding: 50px 0;
+	background: var(--blue);
+	padding: 50px 0;
 }
 .bes article h3::after {
-  background: white;
-  margin: 20px 0;
+	background: white;
+	margin: 20px 0;
 }
 
 .bes article form input,
 textarea {
-  background: var(--blue);
-  border: 1px solid white;
-  margin-bottom: 20px;
-  color: white;
-  padding: 4px 5px;
+	background: var(--blue);
+	border: 1px solid white;
+	margin-bottom: 20px;
+	color: white;
+	padding: 4px 5px;
 }
 .bes article form button {
-  width: max-content;
-  padding: 5px 25px;
-  background: white;
-  border: 1px solid white;
-  color: var(--blue);
+	width: max-content;
+	padding: 5px 25px;
+	background: white;
+	border: 1px solid white;
+	color: var(--blue);
 }
 .bes article form button:hover {
-  color: white;
-  transition: var(--transition);
-  background: transparent;
+	color: white;
+	transition: var(--transition);
+	background: transparent;
 }
 .bes form input::placeholder,
 .bes form textarea::placeholder {
-  color: white;
-  opacity: 0.9;
+	color: white;
+	opacity: 0.9;
 }
 /********************
      COUNTER
 *********************/
 .counter {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/counter.png);
-  background-position: center;
-  background-size: cover;
-  height: 35vh;
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url(img/counter.png);
+	background-position: center;
+	background-size: cover;
+	height: 35vh;
 }
 .counter hgroup {
-  border: 1px solid var(--blue);
-  padding: 40px;
-  background: rgba(0, 0, 0, 0.226);
+	border: 1px solid var(--blue);
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.226);
 }
 .counter hgroup p {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /********************
@@ -472,50 +475,50 @@ textarea {
 *********************/
 
 .gostovanja hgroup {
-  background: url(img/Medija.png);
+	background: url(img/Medija.png);
 }
 .gostovanja hgroup h2 {
-  padding-bottom: 30px !important;
+	padding-bottom: 30px !important;
 }
 
 .gostovanja .item .date {
-  background: var(--blue);
-  color: white;
-  display: inline-block;
-  padding: 0px 5px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  margin-left: opx;
+	background: var(--blue);
+	color: white;
+	display: inline-block;
+	padding: 0px 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: opx;
 }
 .gostovanja .item .date h4 {
-  font-weight: 700;
-  font-size: 1.4rem;
+	font-weight: 700;
+	font-size: 1.4rem;
 }
 .gostovanja .item .date p {
-  margin-bottom: 0px !important;
-  color: white;
-  text-decoration: none;
-  font-style: normal;
+	margin-bottom: 0px !important;
+	color: white;
+	text-decoration: none;
+	font-style: normal;
 }
 
 button:focus {
-  outline: none !important;
+	outline: none !important;
 }
 .owl-theme .owl-nav {
-  font-size: 4rem;
-  color: var(--lightText);
+	font-size: 4rem;
+	color: var(--lightText);
 }
 
 .gostovanja .item p {
-  font-size: 0.95rem;
-  font-style: italic;
-  text-decoration: underline;
-  color: var(--lightText);
+	font-size: 0.95rem;
+	font-style: italic;
+	text-decoration: underline;
+	color: var(--lightText);
 }
 .gostovanja .item p.description {
-  color: var(--blue);
-  margin-bottom: 0 !important;
+	color: var(--blue);
+	margin-bottom: 0 !important;
 }
 /* .gostovanja .item a:hover {
   text-decoration: none;
@@ -525,77 +528,77 @@ button:focus {
 
 /* nasli klijenti */
 .nasiKlijenti {
-  background: var(--gray);
-  padding: 50px 0 80px 0;
+	background: var(--gray);
+	padding: 50px 0 80px 0;
 }
 .nasiKlijenti h2.text-center {
-  padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 .nasiKlijenti p.lead {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 /********************
      FOOTER
 *********************/
 footer {
-  background: var(--deepGray);
+	background: var(--deepGray);
 }
 footer .row {
-  padding: 80px 0;
+	padding: 80px 0;
 }
 footer .container .row article {
-  min-height: 150px;
+	min-height: 150px;
 }
 footer article p,
 footer article a {
-  color: var(--lightText);
-  font-size: 0.9rem;
+	color: var(--lightText);
+	font-size: 0.9rem;
 }
 footer article h4,
 footer article h5,
 footer article h6 {
-  color: var(--blue);
+	color: var(--blue);
 }
 footer article h6 {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 footer article hgroup {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 footer article hgroup h5 {
-  font-size: 1.09rem;
+	font-size: 1.09rem;
 }
 footer article hgroup h4 {
-  letter-spacing: 4px;
-  font-size: 1.3rem;
+	letter-spacing: 4px;
+	font-size: 1.3rem;
 }
 footer article p {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 footer article .workHours p span {
-  color: var(--blue);
-  font-weight: 600;
+	color: var(--blue);
+	font-weight: 600;
 }
 footer article h6 {
-  padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 footer article:last-child span {
-  color: white;
+	color: white;
 }
 footer .bottomBar p {
-  margin-bottom: 0 !important;
-  color: white;
-  font-weight: 500;
-  padding: 20px 0;
-  font-size: 0.9rem;
+	margin-bottom: 0 !important;
+	color: white;
+	font-weight: 500;
+	padding: 20px 0;
+	font-size: 0.9rem;
 }
 footer hr {
-  border: 1px solid var(--blue);
-  margin: 0 !important;
+	border: 1px solid var(--blue);
+	margin: 0 !important;
 }
 footer .bottomBar {
-  background: var(--deepGray) !important;
+	background: var(--deepGray) !important;
 }
 
 /********************
@@ -603,65 +606,65 @@ footer .bottomBar {
 *********************/
 
 .advokati hgroup {
-  background-image: url(img/Naš\ tim.png);
+	background-image: url(img/Naš\ tim.png);
 }
 
 .container-1 {
-  width: 80%;
-  margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 .row-1 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 350px;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 350px;
+	flex-wrap: wrap;
 }
 .advokati .advokatCard {
-  display: flex;
-  height: 220px !important;
+	display: flex;
+	height: 220px !important;
 
-  flex: 0 0 47%;
+	flex: 0 0 47%;
 }
 
 .advokati .advokatCard .advokat-1 {
-  background-image: url(img/advokat_1.png);
+	background-image: url(img/advokat_1.png);
 }
 .advokati .advokatCard .advokat-2 {
-  background-image: url(img/advokat_2.png);
+	background-image: url(img/advokat_2.png);
 }
 .advokati .advokatCard .img {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  background-repeat: no-repeat;
-  flex: 0 0 30%;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	flex: 0 0 30%;
 }
 .advokati .text {
-  background-color: var(--gray);
-  flex: 0 1 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	background-color: var(--gray);
+	flex: 0 1 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
-  padding: 20px 20px 20px 50px;
+	padding: 20px 20px 20px 50px;
 }
 .advokati .text h3 {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 .advokati .text p {
-  font-size: 0.9rem;
+	font-size: 0.9rem;
 }
 
 .nasiKlijenti .col-lg-2 img {
-  mix-blend-mode: darken;
+	mix-blend-mode: darken;
 }
 .nasiKlijenti hgroup h2 {
-  margin-bottom: 35px !important;
-  font-weight: 500;
+	margin-bottom: 35px !important;
+	font-weight: 500;
 }
 .nasiKlijenti hgroup p {
-  margin-bottom: 35px !important;
-  line-height: 2;
+	margin-bottom: 35px !important;
+	line-height: 2;
 }
 
 /********************
@@ -669,220 +672,227 @@ footer .bottomBar {
 *********************/
 
 .kontakt hgroup {
-  background: url(img/Kako\ do\ nas.png);
-  background-size: 330px;
+	background: url(img/Kako\ do\ nas.png);
+	background-size: 330px;
 }
 .row-2 {
-  width: 100% !important;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 50px;
+	width: 100% !important;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px;
 }
 
 .kontakt .row-2 .map {
-  flex: 0 0 64%;
+	flex: 0 0 64%;
 }
 .kontakt .row-2 .kanc {
-  flex: 0 0 34%;
+	flex: 0 0 34%;
 }
 .kontakt .row-2 .kanc img {
-  width: 100%;
+	width: 100%;
 }
 .kontakt .map .map-responsive {
-  overflow: hidden;
-  padding-bottom: 10%;
-  position: relative;
-  height: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+	position: relative;
+	height: 100%;
 }
 
 .kontakt .map .map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 .info p span {
-  color: var(--blue);
+	color: var(--blue);
 }
 .info .row-2 .col-md-5,
 .info .row-2 .col-sm-4,
 .info .row-2 .col-1 {
-  padding: 0 !important;
+	padding: 0 !important;
 }
 .info .row-2 hr {
-  width: 100%;
+	width: 100%;
 }
 /********************
      RESPONSIVE
 *********************/
 
 @media (max-width: 1200px) {
-  .services article .wrapper h4 {
-    font-size: 0.95rem !important;
-  }
-  .services .wrapper {
-    min-width: 140px;
-  }
+	.services article .wrapper h4 {
+		font-size: 0.95rem !important;
+	}
+	.services .wrapper {
+		min-width: 140px;
+	}
 
-  .btn-blue:hover {
-    background: white;
-    transition: var(--transition);
-    color: var(--blue);
-  }
-  .oblastRada article label {
-    left: 26%;
-  }
-  .zastoMi footer .row {
-    width: 95% !important;
-    margin: 0 auto !important;
-    justify-content: space-between !important;
-  }
+	.btn-blue:hover {
+		background: white;
+		transition: var(--transition);
+		color: var(--blue);
+	}
+	.oblastRada article label {
+		left: 26%;
+	}
+	.zastoMi footer .row {
+		width: 95% !important;
+		margin: 0 auto !important;
+		justify-content: space-between !important;
+	}
 
-  /********************
+	/********************
      ADVOKATI
 *********************/
-  .row-1 {
-    margin-bottom: 200px;
-  }
-  .advokati .row-1 .advokatCard {
-    flex: 0 0 100%;
-  }
-  .advokati .row-1 .advokatCard:first-child {
-    margin-bottom: 80px;
-  }
-  .advokati .advokatCard .img {
-    flex: 0 0 20%;
-  }
-  .advokati .advokatCard .advokat-2 {
-    order: 1;
-  }
-  .advokati .advokatCard .text {
-    flex: 0 0 80%;
-  }
+	.row-1 {
+		margin-bottom: 200px;
+	}
+	.advokati .row-1 .advokatCard {
+		flex: 0 0 100%;
+	}
+	.advokati .row-1 .advokatCard:first-child {
+		margin-bottom: 80px;
+	}
+	.advokati .advokatCard .img {
+		flex: 0 0 20%;
+	}
+	.advokati .advokatCard .advokat-2 {
+		order: 1;
+	}
+	.advokati .advokatCard .text {
+		flex: 0 0 80%;
+	}
 
-  .advokati footer h5 {
-    font-size: 0.85rem !important;
-    /* text-align: center; */
-    letter-spacing: 1px;
-  }
-  footer hgroup h4 {
-    /* text-align: center; */
-    font-size: 1.3rem;
-    letter-spacing: 4px !important;
-  }
-  footer .container .row article:last-child {
-    min-height: 50px;
-    justify-content: flex-end;
-  }
+	.advokati footer h5 {
+		font-size: 0.85rem !important;
+		/* text-align: center; */
+		letter-spacing: 1px;
+	}
+	footer hgroup h4 {
+		/* text-align: center; */
+		font-size: 1.3rem;
+		letter-spacing: 4px !important;
+	}
+	footer .container .row article:last-child {
+		min-height: 50px;
+		justify-content: flex-end;
+	}
 }
 @media (max-width: 1030px) {
-  nav .navbar-nav li:nth-child(2) {
-    margin: 0 0 !important;
-  }
+	nav .navbar-nav li:nth-child(2) {
+		margin: 0 0 !important;
+	}
 }
 @media (max-width: 991px) {
-  nav .navbar-nav {
-    /* border-right: 1px solid var(--blue);
+	nav .navbar-nav {
+		/* border-right: 1px solid var(--blue);
     border-left: 1px solid var(--blue); */
-    border: none;
-    padding: 0;
-  }
+		border: none;
+		padding: 0;
+	}
 
-  /* nav .navbar-nav {
+	/* nav .navbar-nav {
     margin-left: 0 !important;
     padding-left: 0 !important;
   } */
 
-  .nav-link {
-    padding: 0 !important;
-  }
-  nav .navbar-nav a {
-    margin: 0;
-  }
+	.nav-link {
+		padding: 0 !important;
+	}
+	nav .navbar-nav a {
+		margin: 0;
+	}
 
-  .oblastRada .row {
-    justify-content: center !important;
-  }
-  .oblastRada .row .col-sm-6 {
-    min-width: 300px !important;
-  }
-  .oblastRada article label {
-    left: 24%;
-  }
+	.text-right {
+		text-align: left !important;
+	}
 
-  .advokati .row-1 .advokatCard .img {
-    flex: 0 0 25% !important;
-  }
-  .advokati .row-1 .advokatCard .text {
-    flex: 0 0 75% !important;
-  }
+	.oblastRada .row {
+		justify-content: center !important;
+	}
+	.oblastRada .row .col-sm-6 {
+		min-width: 300px !important;
+	}
+	.oblastRada article label {
+		left: 24%;
+	}
+
+	.advokati .row-1 .advokatCard .img {
+		flex: 0 0 25% !important;
+	}
+	.advokati .row-1 .advokatCard .text {
+		flex: 0 0 75% !important;
+	}
 }
 @media (max-width: 768px) {
-  .oblastRada .row .col-sm-6 {
-    min-width: 270px !important;
-  }
-  .oblastRada article label {
-    left: 20%;
-  }
-  .zastoMi article:first-child {
-    padding-bottom: 50px;
-  }
-  .advokati .row-1 .advokatCard .img {
-    flex: 0 0 35% !important;
-  }
-  .advokati .row-1 .advokatCard .text {
-    flex: 0 0 65% !important;
-  }
-  .kontakt .row-2 .map {
-    flex: 0 0 100%;
-    height: 350px;
-    padding: 20px;
-  }
-  .kontakt .row-2 .kanc {
-    flex: 0 0 100%;
+	.oblastRada .row .col-sm-6 {
+		min-width: 270px !important;
+	}
+	.oblastRada article label {
+		left: 20%;
+	}
+	.zastoMi article:first-child {
+		padding-bottom: 50px;
+	}
+	.advokati .row-1 .advokatCard .img {
+		flex: 0 0 35% !important;
+	}
+	.advokati .row-1 .advokatCard .text {
+		flex: 0 0 65% !important;
+	}
+	.kontakt .row-2 .map {
+		flex: 0 0 100%;
+		height: 350px;
+		padding: 20px;
+	}
+	.kontakt .row-2 .kanc {
+		flex: 0 0 100%;
 
-    padding: 20px;
-    margin-bottom: 10px;
-  }
+		padding: 20px;
+		margin-bottom: 10px;
+	}
 }
 @media (max-width: 575px) {
-  .oblastRada .row article img {
-    width: auto !important;
-  }
-  .oblastRada article .wrapper {
-    min-height: 250px;
-  }
-  .oblastRada article label {
-    position: absolute;
-    bottom: -15px;
-    left: 35%;
-  }
+	.oblastRada .row article img {
+		width: auto !important;
+	}
+	.oblastRada article .wrapper {
+		min-height: 250px;
+	}
+	.oblastRada article label {
+		position: absolute;
+		bottom: -20px;
+		left: 29%;
+	}
+	.zastoMi hgroup {
+		background: none;
+	}
 
-  /********************
+	/********************
      ADVOKATI
 *********************/
 
-  footer,
-  footer .workHours {
-    text-align: center !important;
-  }
-  footer article:first-child {
-    justify-content: center !important;
-  }
-  footer article {
-    margin-bottom: 30px;
-  }
-  .advokati .row-1 .advokatCard .img {
-    display: none;
-  }
-  .advokati .row-1 .advokatCard .text {
-    flex: 0 0 100% !important;
-  }
-  .kontakt .row-2 .map {
-    flex: 0 0 100%;
-    height: 200px;
-    padding: 20px;
-  }
+	footer,
+	footer .workHours {
+		text-align: center !important;
+	}
+	footer article:first-child {
+		justify-content: center !important;
+	}
+	footer article {
+		margin-bottom: 30px;
+	}
+	.advokati .row-1 .advokatCard .img {
+		display: none;
+	}
+	.advokati .row-1 .advokatCard .text {
+		flex: 0 0 100% !important;
+	}
+	.kontakt .row-2 .map {
+		flex: 0 0 100%;
+		height: 200px;
+		padding: 20px;
+	}
 }

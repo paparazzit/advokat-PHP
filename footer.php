@@ -10,7 +10,7 @@
               <p><span>18-20h</span> i po dogovoru</p></div>
             
           </article >
-          <article class="col-xl-2  col-lg-3 col-md-3  col-sm-3">
+          <article class="col-xl-2  col-lg-3 col-md-3  col-6">
             <h6 class="text-uppercase">Quick Acces</h6>
             <div class="links"> 
               <a href="" class="d-block">Home</a>
@@ -20,7 +20,7 @@
               <a href="" class="d-block">Contact</a></div>
            
           </article>
-          <article class="col-xl-2 col-lg-3 col-md-3  col-sm-3">
+          <article class="col-xl-2 col-lg-3 col-md-3  col-6">
             <h6 class="text-uppercase">Usefull links</h6>
             <div class="links"> 
               <a href="" class="d-block">Justice For All</a>
@@ -52,6 +52,9 @@
    <script src="js/main.js"></script>
    
    <script src="js/mailer.js"></script>
+<!-- <script type="text/javascript">
+  $(".counter-1").counterUp({dealy: 100, time: 10000});
+</script> -->
   
   </body>
 </html>
