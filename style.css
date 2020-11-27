@@ -606,7 +606,7 @@ footer .bottomBar {
 *********************/
 
 .advokati hgroup {
-	background-image: url(img/Naš\ tim.png);
+	background-image: url(img/Nas\ tim.png);
 }
 
 .container-1 {
@@ -680,7 +680,7 @@ footer .bottomBar {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 50px;
+	margin: 50px 0;
 }
 
 .kontakt .row-2 .map {
@@ -884,6 +884,9 @@ footer .bottomBar {
 	footer article {
 		margin-bottom: 30px;
 	}
+	.advokati .row-1 .advokatCard {
+		min-height: 280px !important;
+	}
 	.advokati .row-1 .advokatCard .img {
 		display: none;
 	}
@@ -895,4 +898,5 @@ footer .bottomBar {
 		height: 200px;
 		padding: 20px;
 	}
+	/* nasi klijent */
 }
